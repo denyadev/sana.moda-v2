@@ -1,0 +1,15 @@
+set sidebar to percentage values so it scales properly
+add Home Slider Animation
+
+darken the contact hero
+
+add navbar on scroll
+alter navbar with logo
+
+
+
+
+Link Contact component to email
+mobile responsive
+add random animations
+fix errors
