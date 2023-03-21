@@ -34,7 +34,7 @@ const Hero = () => {
                 <div className="flex h-full items-center text-right justify-end">
                     <div className="space-y-10 mt-32">
                         <h2 className="text-5xl text-white uppercase tracking-[18px] font-oswald -mr-5">Transform Your Space</h2>
-                        <h3 className="text-white font-normal ml-[500px]">Design Your Dream Space with Us. From selecting the perfect colors to choosing the right furniture and decor, we're here to make your space beautiful, functional, and comfortable. Let's work together to create a space you'll love for years to come.</h3>
+                        <h3 className="text-white font-normal ml-[500px]">Design Your Dream Space with Us. From selecting the perfect colors to choosing the right furniture and decor, we&apos;re here to make your space beautiful, functional, and comfortable. Let&apos;s work together to create a space you&apos;ll love for years to come.</h3>
                         <button className="text-sm text-white bg-theme font-mont font-semibold py-3 px-8 rounded-full uppercase tracking-widest">Previous Work &#8594;</button>
                     </div>
 
