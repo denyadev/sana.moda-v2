@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'slide1': 'url("../public/slide1.jpg")',
-        'hero': 'url("../public/001.webp")',
+        'hero': 'url("../public/03.jpg")',
         'slide2': 'url("../public/slide2.jpg")',
         'about': 'url("../public/about.jpg")',
         'portfolio': 'url("../public/portfolio.jpg")',
