@@ -7,7 +7,7 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-            'theme': '#C5A47E',
+            'theme': '#394F76',
         },
         brightness: {
             25: '.25',
@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'slide1': 'url("../public/slide1.jpg")',
-        'hero': 'url("../public/03.jpg")',
+        'hero': 'url("../public/wall unit.jpg")',
         'slide2': 'url("../public/slide2.jpg")',
         'about': 'url("../public/about.jpg")',
         'portfolio': 'url("../public/portfolio.jpg")',

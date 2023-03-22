@@ -48,7 +48,7 @@ const ContactBox = () => {
                 </div>
                 <textarea {...register('message')} placeholder="Message" className="contactInput -ml-3" />
             </div>
-            <button type="submit" className="shadow-xl shadow-theme/40 hover:shadow-none float-right text-sm text-white bg-theme font-mont font-semibold py-3 px-10 rounded-full uppercase tracking-widest">Send &#8594;</button>
+            <button type="submit" className="shadow-xl shadow-theme/40 hover:shadow-none float-right text-sm text-white bg-theme font-mont font-semibold py-3 px-10 uppercase tracking-widest">Send &#8594;</button>
         </form>
     </div>
   )

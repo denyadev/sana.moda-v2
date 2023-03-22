@@ -13,7 +13,7 @@
     }
 
     .contactInput {
-        @apply outline-none bg-[#F3F3F3] rounded-lg border-b-2 px-8 py-4 text-[#4b4b4b] placeholder-[#4b4b4b] transition-all focus:bg-white focus:border focus:border-b-2 focus:border-theme
+        @apply outline-none bg-[#F3F3F3] border-b-4 px-8 py-4 text-[#4b4b4b] placeholder-[#4b4b4b] transition-all focus:bg-white focus:border focus:border-b-4 focus:border-theme
     }
 
     .card-zoom {

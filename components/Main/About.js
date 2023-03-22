@@ -9,10 +9,25 @@ const About = () => {
             <div className="border-l border-[#373737]" />
             <div className="border-l border-r border-[#373737]" />
         </div> */}
-        <div className="space-y-8">
-            <h1 className="absolute text-[173px] font-bold opacity-10 -left-[72px] top-28">about</h1>
-            <h4 className="text-3xl font-bold">we turn ideas into works of art<span className="text-theme">.</span></h4>
-            <p className="text-base">For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other. The way we undertake projects is based on permanently applying values that reinforce each other: socio-cultural value, experiental value, building-technical value and economical value</p>
+        <div className="space-y-8 -ml-20">
+            <h1 className="absolute text-[173px] font-bold opacity-10 -left-[72px] top-28 select-none">about</h1>
+            <h4 className="text-3xl font-bold relative"><span className="text-theme">What</span> is important<span className="text-theme">?</span></h4>
+            <div className='relative'>
+                <p>High Expectations</p>
+                <p>The Unexpected</p>
+                <p>Strategic Thinking</p>
+                <p>Interesting Answers</p>
+                <p>Creative Instinct</p>
+                <p>Art</p>
+                <p>Fashion</p>
+                <p>Ideas</p>
+                <p>Impulses</p>
+                <p>Spaces with Purpose</p>   
+                <p>Insight</p>
+                <p>Inspiration</p>
+                <p>Unique</p>
+                <p>Design</p>
+            </div>
         </div>
 
         <div className="flex flex-col justify-between h-full py-28">
