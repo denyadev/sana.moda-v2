@@ -5,110 +5,15 @@
 @layer components {
 
     .header {
-        @apply container mx-auto py-12 fixed text-white z-50 uppercase tracking-[5px] font-oswald text-[13px] font-[300] left-0 right-0 top-0;
+        @apply mx-auto py-12 fixed text-white z-50 uppercase tracking-[5px] font-oswald text-[13px] font-[300] left-0 right-0 top-0;
     }
 
     .header-active {
-        @apply container mx-auto py-12 fixed text-white z-50 uppercase tracking-[5px] font-oswald text-[13px] font-[300] left-0 right-0 top-0 bg-[#242424]/90;
+        @apply mx-auto py-4 fixed text-theme z-50 uppercase tracking-[5px] font-oswald text-[13px] font-[500] left-0 right-0 top-0 bg-[#F6F5F3] shadow-lg transition duration-500;
     }
 
     .contactInput {
         @apply outline-none bg-[#F3F3F3] border-b-4 px-8 py-4 text-[#4b4b4b] placeholder-[#4b4b4b] transition-all focus:bg-white focus:border focus:border-b-4 focus:border-theme
     }
-
-    .card-zoom {
-        @apply relative flex items-center justify-center overflow-hidden;
-    }
-
-    .card-zoom-image {
-        @apply absolute w-full h-full transition-all duration-zoom ease-out transform bg-center bg-cover;
-    }
-    
-    .card-zoom-text {
-        @apply absolute text-5xl font-black transition-all duration-zoom ease-in-out transform scale-150 text-gray-50;
-    }
-
-    .card-zoom:hover .card-zoom-image {
-        @apply scale-125;
-    }
-
-    .card-zoom:hover .card-zoom-text {
-        @apply scale-100;
-    }
-
-    /* figure {
-        @apply m-0 relative 
-    } */
-
-
-figure { 
-	margin: 0;
-	position: relative;
-	padding-bottom: 56.5%;
-	perspective: 1800px;
-	transform-style: preserve-3d;
-	max-width: 100%;
-}
-figure img { 
-  top: 0;
-  left: 0;
-  position: absolute;
-  transition: 1s;
-  width: 100%;
-}
-figure img.first { transform: rotateY(0deg); }
-figure img.second { transform: rotateY(-180deg) translateZ(0); }
-figure:hover img.first { transform: rotateY(180deg);  } 
-figure:hover img.second { transform: rotateY(0deg) translateZ(0);  }
-figure img:nth-child(1), figure img:nth-child(11) { 
-  clip: rect(0px, 100px, 100vh, 0px);
-  transform-origin: 50px 0px;
-}
-figure img:nth-child(2), figure img:nth-child(12) {
-  clip: rect(0px, 200px, 100vh, 100px);
-  transform-origin: 150px 0px;
-  transition-delay: 100ms;
-}
-figure img:nth-child(3), figure img:nth-child(13) {
-  clip: rect(0px, 300px, 100vh, 200px);
-  transform-origin: 250px 0px;
-  transition-delay: 200ms;  
-}
-figure img:nth-child(4), figure img:nth-child(14) {
-  clip: rect(0px, 400px, 100vh, 300px);
-  transform-origin: 350px 0px;
-  transition-delay: 300ms; 
-}
-figure img:nth-child(5), figure img:nth-child(15) {
-  clip: rect(0px, 500px, 100vh, 400px);
-  transform-origin: 450px 0px;
-  transition-delay: 400ms;
-}
-figure img:nth-child(6), figure img:nth-child(16) {
-  clip: rect(0px, 600px, 100vh, 500px);
-  transform-origin: 550px 0px;
-  transition-delay: 500ms; 
-}
-figure img:nth-child(7), figure img:nth-child(17) {
-  clip: rect(0px, 700px, 100vh, 600px);
-  transform-origin: 650px 0px;
-  transition-delay: 600ms;
-}
-figure img:nth-child(8), figure img:nth-child(18) {
-  clip: rect(0px, 800px, 100vh, 700px);
-  transform-origin: 750px 0px;
-  transition-delay: 700ms;
-}
-figure img:nth-child(9), figure img:nth-child(19) {
-  clip: rect(0px, 900px, 100vh, 800px);
-  transform-origin: 850px 0px;
-  transition-delay: 800ms; 
-}
-figure img:nth-child(10), figure img:nth-child(20) {
-  clip: rect(0px, 1000px, 100vh, 900px);
-  transform-origin: 950px 0px;
-  transition-delay: 900ms;  
-}
-
 }
 
