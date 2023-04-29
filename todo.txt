@@ -2,3 +2,4 @@ add socials
 add email
 fix contact box container offset
 adjust hamburger
+add logo to favicon
