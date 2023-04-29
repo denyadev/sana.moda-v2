@@ -5,7 +5,6 @@ const Project = ({image, title, width, height, hidden}) => {
   return (
     <article>
         <Image className={`object-contain ${hidden}`} alt={title} src={image} width={width} height={height}/>
-
     </article>
 
 

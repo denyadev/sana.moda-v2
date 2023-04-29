@@ -9,11 +9,15 @@
     }
 
     .header-active {
-        @apply mx-auto py-4 fixed text-theme z-50 uppercase tracking-[5px] font-oswald text-[13px] font-[500] left-0 right-0 top-0 bg-[#F6F5F3] shadow-lg transition duration-500;
+        @apply mx-auto py-4 fixed text-white lg:text-theme lg:hover:text-theme/30 z-50 uppercase tracking-[5px] font-oswald text-[13px] font-[500] left-0 right-0 top-0 bg-[#F6F5F3] shadow-lg transition duration-500;
     }
 
     .contactInput {
-        @apply outline-none bg-[#F3F3F3] border-b-4 px-8 py-4 text-[#4b4b4b] placeholder-[#4b4b4b] transition-all focus:bg-white focus:border focus:border-b-4 focus:border-theme
+        @apply text-sm lg:text-base outline-none bg-[#F3F3F3] border-b-4 px-3 py-3 lg:px-8 lg:py-4 text-[#4b4b4b] placeholder-[#4b4b4b] transition-all focus:bg-white focus:border focus:border-b-4 focus:border-theme
     }
+
+    /* .active {
+        @apply decoration-theme overline decoration-2 text-theme;
+    } */
 }
 
