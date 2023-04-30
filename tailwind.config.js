@@ -15,7 +15,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'hero': 'url("../public/wall.jpg")',
+        'hero': 'url("../public/wall2.jpg")',
         },
         container: {
                 padding: '12rem',
