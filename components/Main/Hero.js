@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="">
             <div className="h-screen absolute bg-[#F6F5F3] w-16 md:w-32 lg:w-44">
                 <div className="w-[14rem] md:w-[23rem] h-[17rem] md:h-[23.75rem] bg-[#F6F5F3]">
-                    <div className="text-center pt-10">
+                    <div className="text-center pt-8">
                         <h1 className="font-extrabold text-[#3D3D3D] text-4xl">Sana<span className="text-theme">Moda</span></h1>
                         <h1 className="font-bold text-[#3D3D3D] left-[-300px] top-[260px] lg:text-[140px] opacity-10 absolute select-none">SanaModa</h1>
                         {/* <h2 className="mr-16 text-theme text-[76px] mt-16 tracking-[5px] font-oswald">01<span className="ml-5 mt-8 text-white opacity-10 text-lg absolute top-[110px] tracking-[2px]">/&nbsp;&nbsp;03</span></h2> */}
