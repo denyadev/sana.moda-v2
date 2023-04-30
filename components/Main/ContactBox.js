@@ -1,16 +1,7 @@
 import React from 'react'
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
-import { useForm, SubmitHandler } from 'react-hook-form'
-import { SocialIcon } from 'react-social-icons'
 
 const ContactBox = () => {
-    
-    const { register, handleSubmit } = useForm()
-
-    const onSubmit = formData => {
-        window.location.href = `mailto:denis.kosogov@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`
-    }
-
   return (
     <div className="lg:container grid lg:grid-cols-3 items-center h-[800px] mx-auto text-[#3D3D3D] relative py-56 lg:py-0 px-4 md:px-12 lg:px-0">
         {/* Heading */}
@@ -39,14 +30,16 @@ const ContactBox = () => {
             </div>
         </div>
         {/* Right */}
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-8 col-span-2 mt-24 z-10">
-            <div className="grid grid-cols-2 gap-6">
+        <form action="https://formsubmit.co/siilieva@yahoo.com" method="POST" className="space-y-8 col-span-2 mt-24 z-10">
+            <div className="grid md:grid-cols-2 space-y-2 md:space-y-0 md:gap-6">
                 <div className="flex flex-col space-y-2 float-left">
-                    <input {...register('name')} placeholder="Name" className="contactInput" type="text" />
-                    <input {...register('email')} placeholder="Email" className="contactInput" type="email" />
-                    <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />
+                    <input name="name" required placeholder="Name" className="contactInput" type="text" />
+                    <input name="email" required placeholder="Email" className="contactInput" type="email" />
+                    <input name="_subject" required placeholder="Subject" className="contactInput" type="text" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://www.sanamoda.ca/" />
                 </div>
-                <textarea {...register('message')} placeholder="Message" className="contactInput -ml-3" />
+                <textarea name="message" required placeholder="Message" className="contactInput md:-ml-3" />
             </div>
             <button type="submit" className="shadow-xl shadow-theme/40 hover:shadow-none float-right text-sm text-white bg-theme font-mont font-semibold py-3 px-10 uppercase tracking-widest">Send &#8594;</button>
         </form>
