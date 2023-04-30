@@ -4,7 +4,7 @@ import Socials from '../Socials'
 const Hero = () => {
   return (
     <>
-    <div className="relative bg-hero bg-cover bg-center">
+    <div className="relative bg-hero bg-contain bg-center bg-no-repeat">
         <div className="">
             <div className="h-screen absolute bg-[#F6F5F3] w-16 md:w-32 lg:w-44">
                 <div className="w-[14rem] md:w-[23rem] h-[17rem] md:h-[23.75rem] bg-[#F6F5F3]">
