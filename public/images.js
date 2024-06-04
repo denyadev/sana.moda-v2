@@ -345,7 +345,7 @@ export const quebec = [
 
 export const kleinburg = [
   {
-    src: "https://console.cloudinary.com/console/c-4c2668c8ce85236dd69db22e22f19a/media_library/search?q=&view_mode=mosaic",
+    src: "https://res.cloudinary.com/dxqkbp6uv/image/upload/v1717465294/k1_icacpt.jpg",
     width: "1200",
     height: "1200",
     title: "Kleinburg  Toronto",
