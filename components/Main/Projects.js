@@ -157,7 +157,7 @@ const Projects = () => {
             onClick={() => setOpenBracondale(true)}
           >
             <h4 className="text-black lg:text-white text-lg tracking-widest lg:opacity-0 group-hover:opacity-100 absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2">
-              Bracondale Hill Toront
+              Bracondale Hill Toronto
             </h4>
           </div>
           <Lightbox
@@ -172,7 +172,7 @@ const Projects = () => {
           <div className="w-5/6 h-full float-right">
             <Project
               image="https://res.cloudinary.com/dxqkbp6uv/image/upload/v1679259123/Bracondale%20Hill%20toronto%20project%206/1_x7z5yu.webp"
-              title="Bracondale Hill Toront"
+              title="Bracondale Hill Toronto"
               width="4435"
               height="2554"
             />
